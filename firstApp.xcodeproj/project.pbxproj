@@ -13,6 +13,8 @@
 		AF433B9B1AA604FB00066311 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF433B9A1AA604FB00066311 /* Images.xcassets */; };
 		AF433B9E1AA604FB00066311 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF433B9C1AA604FB00066311 /* LaunchScreen.xib */; };
 		AF433BAA1AA604FB00066311 /* firstAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF433BA91AA604FB00066311 /* firstAppTests.swift */; };
+		AF433BB61AA60B3400066311 /* FloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF433BB41AA60B3400066311 /* FloatLabelTextField.swift */; };
+		AF433BB71AA60B3400066311 /* FloatLabelTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF433BB51AA60B3400066311 /* FloatLabelTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		AF433BA31AA604FB00066311 /* firstAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firstAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF433BA81AA604FB00066311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF433BA91AA604FB00066311 /* firstAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstAppTests.swift; sourceTree = "<group>"; };
+		AF433BB41AA60B3400066311 /* FloatLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextField.swift; sourceTree = "<group>"; };
+		AF433BB51AA60B3400066311 /* FloatLabelTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,7 @@
 				AF433B971AA604FB00066311 /* Main.storyboard */,
 				AF433B9A1AA604FB00066311 /* Images.xcassets */,
 				AF433B9C1AA604FB00066311 /* LaunchScreen.xib */,
+				AF433BB31AA60B3400066311 /* FloatLabelFields */,
 				AF433B911AA604FB00066311 /* Supporting Files */,
 			);
 			path = firstApp;
@@ -110,6 +115,15 @@
 				AF433BA81AA604FB00066311 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF433BB31AA60B3400066311 /* FloatLabelFields */ = {
+			isa = PBXGroup;
+			children = (
+				AF433BB41AA60B3400066311 /* FloatLabelTextField.swift */,
+				AF433BB51AA60B3400066311 /* FloatLabelTextView.swift */,
+			);
+			path = FloatLabelFields;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +226,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF433BB61AA60B3400066311 /* FloatLabelTextField.swift in Sources */,
+				AF433BB71AA60B3400066311 /* FloatLabelTextView.swift in Sources */,
 				AF433B961AA604FB00066311 /* ViewController.swift in Sources */,
 				AF433B941AA604FB00066311 /* AppDelegate.swift in Sources */,
 			);
